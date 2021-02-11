@@ -40,16 +40,27 @@
       // with only the first letter capitalized. Make sure that it can take strings that
       // are lowercase, UPPERCASE or BoTh.
       //
-      let stringInput = prompt("Enter your words:");
+      // let stringInput = prompt("Enter your words:");
 
-      function capitalize(stringInput) {
-        stringInput = stringInput.toLowerCase();
-        let firstLetter = stringInput.charAt(0).toUpperCase();
+      // function capitalize(stringInput) {
+      //   stringInput = stringInput.toLowerCase();
+      //   let firstLetter = stringInput.charAt(0).toUpperCase();
 
-        console.log(firstLetter + stringInput.slice(1));
+      //   console.log(firstLetter + stringInput.slice(1));
+      // }
+
+      // capitalize(stringInput);
+
+      //
+      //Write a function called lastLetter that takes a string and returns the very last letter of that string:
+      //
+      let stringInput = prompt("Enter your word:");
+
+      function lastLetter(stringInput) {
+        console.log("last letter is: " + stringInput.slice(-1));
       }
 
-      capitalize(stringInput);
+      lastLetter(stringInput);
     </script>
   </body>
 </html>
