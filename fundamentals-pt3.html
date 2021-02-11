@@ -11,7 +11,7 @@
   <body>
     <script>
       //
-      //Write a function called add7 that takes one number and returns that number + 7.
+      // Write a function called add7 that takes one number and returns that number + 7.
       //
       // let input = prompt("Enter a number:");
 
@@ -22,18 +22,34 @@
       // add7(input);
 
       //
-      //Write a function called multiply that takes 2 numbers and returns their product.
+      // Write a function called multiply that takes 2 numbers and returns their product.
       //
-      let firstInput = prompt("Enter your first number:");
-      let SecondInput = prompt("Enter your second number:");
+      // let firstInput = prompt("Enter your first number:");
+      // let SecondInput = prompt("Enter your second number:");
 
-      function multiply(firstInput, SecondInput) {
-        console.log(
-          firstInput + " x " + SecondInput + " = " + firstInput * SecondInput
-        );
+      // function multiply(firstInput, SecondInput) {
+      //   console.log(
+      //     firstInput + " x " + SecondInput + " = " + firstInput * SecondInput
+      //   );
+      // }
+
+      // multiply(firstInput, SecondInput);
+
+      //
+      // Write a function called capitalize that takes a string and returns that string
+      // with only the first letter capitalized. Make sure that it can take strings that
+      // are lowercase, UPPERCASE or BoTh.
+      //
+      let stringInput = prompt("Enter your words:");
+
+      function capitalize(stringInput) {
+        stringInput = stringInput.toLowerCase();
+        let firstLetter = stringInput.charAt(0).toUpperCase();
+
+        console.log(firstLetter + stringInput.slice(1));
       }
 
-      multiply(firstInput, SecondInput);
+      capitalize(stringInput);
     </script>
   </body>
 </html>
