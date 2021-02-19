@@ -1,0 +1,1 @@
+exercise from https://www.theodinproject.com/courses/foundations/lessons/dom-manipulation
